@@ -35,9 +35,9 @@ This api allows all CRUD operations and it has following endpoints:
 * [GET] `http://localhost:3000/articles` GET request on this endpoint gives you all the articles in database.
 * [POST] `http://localhost:3000/articles` [Request Body Parameters] `title, content` POST request on this endpoint allows you to add article to database.
 * [DELETE] `http://localhost:3000/articles` Delete request on this endpoint deletes all the articles in database.
-* [GET] `http://localhost:3000//articles/:articleTitle` [Request Parameter] `article title` GET request on this endpoint gives you the article with requested title.
-* [PUT] `http://localhost:3000//articles/:articleTitle` [Request Body Parameters] `title, content` [Request Parameter] `article title` PUT request on this endpoint allows you to update article with specified title.
-* [DELETE] `http://localhost:3000//articles/:articleTitle` [Request Parameter] `article title` DELETE request on this endpoint allows you to delete article with specified title.
+* [GET] `http://localhost:3000/articles/:articleTitle` [Request Parameter] `article title` GET request on this endpoint gives you the article with requested title.
+* [PUT] `http://localhost:3000/articles/:articleTitle` [Request Body Parameters] `title, content` [Request Parameter] `article title` PUT request on this endpoint allows you to update article with specified title.
+* [DELETE] `http://localhost:3000/articles/:articleTitle` [Request Parameter] `article title` DELETE request on this endpoint allows you to delete article with specified title.
 
 
 <!-- LICENSE -->
