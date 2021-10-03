@@ -28,7 +28,8 @@ This application is built with the following:
 * [Node JS](https://nodejs.org/en/)
 * [Express JS](https://expressjs.com/)
 * [MongoDb](https://www.mongodb.com/)
-<b></b>
+
+
 <!-- API Endpoints -->
 ## API Endpoints
 This api allows all CRUD operations and it has following endpoints:
