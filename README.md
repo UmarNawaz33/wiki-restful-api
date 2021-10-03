@@ -33,13 +33,15 @@ This application is built with the following:
 <!-- API Endpoints -->
 ## API Endpoints
 This api allows all CRUD operations and it has following endpoints:
-* <b>[GET]</b> `http://localhost:3000/articles` GET request on this endpoint gives you all the articles in database.
-* <b>[POST]</b> `http://localhost:3000/articles` <b>[Request Body Parameters]</b> `title, content` POST request on this endpoint allows you to add article to database.
-* <b>[DELETE]</b> `http://localhost:3000/articles` Delete request on this endpoint deletes all the articles in database.
-* <b>[GET]</b> `http://localhost:3000/articles/:articleTitle` <b>[Request Parameter]</b> `article title` GET request on this endpoint gives you the article with requested title.
-* <b>[PUT]</b> `http://localhost:3000/articles/:articleTitle` <b>[Request Body Parameters]</b> `title, content` <b>[Request Parameter]</b> `article title` PUT request on this endpoint allows you to update article with specified title.
-* <b>[DELETE]</b> `http://localhost:3000/articles/:articleTitle` <b>[Request Parameter]</b> `article title` DELETE request on this endpoint allows you to delete article with specified title.
-
+<table>
+  <tr> <th>Reuest</th> <th>Path</th> <th>Body Parameters</th> <th>Request Parameters</th> <th>Explanation</th> </tr>
+  <tr> <td><b>GET</b></td> <td>http://localhost:3000/articles</td> <td>-</td> <td>-</td> <td>to get all articles</td> </tr>
+  <tr> <td><b>POST</b></td> <td>http://localhost:3000/articles</td> <td>title, content</td> <td>-</td> <td>add article in database</td> </tr>
+  <tr> <td><b>DELETE</b></td> <td>http://localhost:3000/articles</td> <td>-</td> <td>-</td> <td>delete all articles</td> </tr>
+  <tr> <td><b>GET</b></td> <td>http://localhost:3000/articles/:articleTitle</td> <td>-</td> <td>articleTitle</td> <td>get article with specific title</td> </tr>
+  <tr> <td><b>PUT</b></td> <td>http://localhost:3000/articles/:articleTitle</td> <td>title, content</td> <td>articleTitle</td> <td>update article with specified title</td></tr>
+  <tr> <td><b>DELETE</b></td> <td>http://localhost:3000/articles/:articleTitle</td> <td>-</td> <td>articleTitle</td> <td>delete article with specified title</td> </tr>
+</table>
 
 <!-- LICENSE -->
 ## License
