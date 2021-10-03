@@ -28,16 +28,16 @@ This application is built with the following:
 * [Node JS](https://nodejs.org/en/)
 * [Express JS](https://expressjs.com/)
 * [MongoDb](https://www.mongodb.com/)
-
+<b></b>
 <!-- API Endpoints -->
 ## API Endpoints
 This api allows all CRUD operations and it has following endpoints:
-* [GET] `http://localhost:3000/articles` GET request on this endpoint gives you all the articles in database.
-* [POST] `http://localhost:3000/articles` [Request Body Parameters] `title, content` POST request on this endpoint allows you to add article to database.
-* [DELETE] `http://localhost:3000/articles` Delete request on this endpoint deletes all the articles in database.
-* [GET] `http://localhost:3000/articles/:articleTitle` [Request Parameter] `article title` GET request on this endpoint gives you the article with requested title.
-* [PUT] `http://localhost:3000/articles/:articleTitle` [Request Body Parameters] `title, content` [Request Parameter] `article title` PUT request on this endpoint allows you to update article with specified title.
-* [DELETE] `http://localhost:3000/articles/:articleTitle` [Request Parameter] `article title` DELETE request on this endpoint allows you to delete article with specified title.
+* <b>[GET]</b> `http://localhost:3000/articles` GET request on this endpoint gives you all the articles in database.
+* <b>[POST]</b> `http://localhost:3000/articles` <b>[Request Body Parameters]</b> `title, content` POST request on this endpoint allows you to add article to database.
+* <b>[DELETE]</b> `http://localhost:3000/articles` Delete request on this endpoint deletes all the articles in database.
+* <b>[GET]</b> `http://localhost:3000/articles/:articleTitle` <b>[Request Parameter]</b> `article title` GET request on this endpoint gives you the article with requested title.
+* <b>[PUT]</b> `http://localhost:3000/articles/:articleTitle` <b>[Request Body Parameters]</b> `title, content` <b>[Request Parameter]</b> `article title` PUT request on this endpoint allows you to update article with specified title.
+* <b>[DELETE]</b> `http://localhost:3000/articles/:articleTitle` <b>[Request Parameter]</b> `article title` DELETE request on this endpoint allows you to delete article with specified title.
 
 
 <!-- LICENSE -->
